@@ -1,0 +1,35 @@
+{
+  "name": "cli-with-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "preferGlobal": true,
+  "bin": {
+    "biu": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yuwancumian/cli-with-babel.git"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keyword1",
+    "keyword2"
+  ],
+  "author": "yuwancumian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuwancumian/cli-with-babel/issues"
+  },
+  "homepage": "https://github.com/yuwancumian/cli-with-babel",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "nodemon": "^1.19.0"
+  }
+}
